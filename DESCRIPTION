@@ -1,0 +1,19 @@
+Package: recordio
+Type: Package
+Title: Recordio reader
+Version: 1.0
+Date: 2018-01-05
+Author: Yaz Saito
+Maintainer: Yaz Saito <ysaito@grail.com>
+Description: Hey Hey
+URL: https://github.com/grailbio/recordio_r
+BugReports: https://github.com/grailbio/recordio_r/issues
+SystemRequirements: zlib, C++14
+NeedsCompilation: yes
+License: Apache 2
+Depends:
+    R (>= 3.2.0)
+Imports:
+    Rcpp
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
